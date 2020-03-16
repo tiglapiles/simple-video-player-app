@@ -1,27 +1,30 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "bulma/css/bulma.css";
+import "../styles/video-list.css";
 
 function VideoList() {
+  let history = useHistory();
+  const redirectTo = () => history.push("/video");
   return (
-    <div className="VideoList">
+    <div className="video-list">
       <section className="section">
         <div className="container">
           <div className="columns is-multiline">
             {Array.from({ length: 6 }).map(i => (
-              <div className="column is-3">
+              <div className="column is-3 video-item" onClick={redirectTo}>
                 <div className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">
                       <img
-                        src="https://s.alicdn.com/@img/tfs/TB1t2yKwaL7gK0jSZFBXXXZZpXa-582-582.png_320x320xz.jpg"
+                        src="https://switch-cn.gtgres.com/global-images/737058f0-642d-11ea-b2ec-abc0f6730fb6.jpg"
                         alt="Placeholder image"
                       />
                     </figure>
                   </div>
                   <div className="card-content">
                     <div className="contetn">
-                      <Link to="/video">simple video player</Link>
+                      <div>simple video player</div>
                     </div>
                   </div>
                 </div>

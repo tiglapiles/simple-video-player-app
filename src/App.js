@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import VideoList from "./components/VideoList.js";
 import VideoContent from "./components/VideoContent";
 import "bulma/css/bulma.css";
@@ -20,7 +20,9 @@ function App() {
                 />
               </div>
               <div className="control">
-                <a className="button is-info">Search</a>
+                <a href="/" className="button is-info">
+                  Search
+                </a>
               </div>
             </div>
           </div>

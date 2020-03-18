@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/simple-video-player-app/static/css/main.b1cf29b6.chunk.css",
-    "main.js": "/simple-video-player-app/static/js/main.8a418c49.chunk.js",
-    "main.js.map": "/simple-video-player-app/static/js/main.8a418c49.chunk.js.map",
+    "main.css": "/simple-video-player-app/static/css/main.98e8ec5a.chunk.css",
+    "main.js": "/simple-video-player-app/static/js/main.cd5ea8c6.chunk.js",
+    "main.js.map": "/simple-video-player-app/static/js/main.cd5ea8c6.chunk.js.map",
     "runtime-main.js": "/simple-video-player-app/static/js/runtime-main.d3f26f63.js",
     "runtime-main.js.map": "/simple-video-player-app/static/js/runtime-main.d3f26f63.js.map",
     "static/css/2.4495b62d.chunk.css": "/simple-video-player-app/static/css/2.4495b62d.chunk.css",
-    "static/js/2.6eec6e46.chunk.js": "/simple-video-player-app/static/js/2.6eec6e46.chunk.js",
-    "static/js/2.6eec6e46.chunk.js.map": "/simple-video-player-app/static/js/2.6eec6e46.chunk.js.map",
+    "static/js/2.585ac565.chunk.js": "/simple-video-player-app/static/js/2.585ac565.chunk.js",
+    "static/js/2.585ac565.chunk.js.map": "/simple-video-player-app/static/js/2.585ac565.chunk.js.map",
     "index.html": "/simple-video-player-app/index.html",
-    "precache-manifest.530968c11b85518f0de9a12cbcb79d72.js": "/simple-video-player-app/precache-manifest.530968c11b85518f0de9a12cbcb79d72.js",
+    "precache-manifest.3754a58a090c0459e720c29cd83daaf8.js": "/simple-video-player-app/precache-manifest.3754a58a090c0459e720c29cd83daaf8.js",
     "service-worker.js": "/simple-video-player-app/service-worker.js",
     "static/css/2.4495b62d.chunk.css.map": "/simple-video-player-app/static/css/2.4495b62d.chunk.css.map",
-    "static/css/main.b1cf29b6.chunk.css.map": "/simple-video-player-app/static/css/main.b1cf29b6.chunk.css.map",
-    "static/js/2.6eec6e46.chunk.js.LICENSE.txt": "/simple-video-player-app/static/js/2.6eec6e46.chunk.js.LICENSE.txt"
+    "static/css/main.98e8ec5a.chunk.css.map": "/simple-video-player-app/static/css/main.98e8ec5a.chunk.css.map",
+    "static/js/2.585ac565.chunk.js.LICENSE.txt": "/simple-video-player-app/static/js/2.585ac565.chunk.js.LICENSE.txt",
+    "static/media/captions.en.vtt": "/simple-video-player-app/static/media/captions.en.42c02428.vtt"
   },
   "entrypoints": [
     "static/js/runtime-main.d3f26f63.js",
     "static/css/2.4495b62d.chunk.css",
-    "static/js/2.6eec6e46.chunk.js",
-    "static/css/main.b1cf29b6.chunk.css",
-    "static/js/main.8a418c49.chunk.js"
+    "static/js/2.585ac565.chunk.js",
+    "static/css/main.98e8ec5a.chunk.css",
+    "static/js/main.cd5ea8c6.chunk.js"
   ]
 }

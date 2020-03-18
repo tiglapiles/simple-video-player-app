@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b37b020f7c616cf59f3371368141d4c9",
+    "revision": "4803f95e4d355ab964f8b2880b0da226",
     "url": "/simple-video-player-app/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple-video-player-app/static/css/2.4495b62d.chunk.css"
   },
   {
-    "revision": "be5a1eb1ee3962089d51",
-    "url": "/simple-video-player-app/static/css/main.98e8ec5a.chunk.css"
+    "revision": "14d1cfa404c3d8123817",
+    "url": "/simple-video-player-app/static/css/main.c76c487e.chunk.css"
   },
   {
     "revision": "b91e9f3e28bd9cae1374",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/simple-video-player-app/static/js/2.1505f443.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "be5a1eb1ee3962089d51",
-    "url": "/simple-video-player-app/static/js/main.3fed1ce0.chunk.js"
+    "revision": "14d1cfa404c3d8123817",
+    "url": "/simple-video-player-app/static/js/main.073187ea.chunk.js"
   },
   {
     "revision": "1a448eb5b24e699a62b0",

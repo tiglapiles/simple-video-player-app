@@ -20,6 +20,10 @@ class VideoPlayer extends Component {
   componentDidMount() {
     // console.log(sub);
   }
+  handleClick = () => {
+    console.log(this.player.seek(80));
+  };
+
   render() {
     const {
       item: { title, video_path, webvtt }
@@ -31,6 +35,9 @@ class VideoPlayer extends Component {
         </div>
         <div className="box player-box">
           <Player
+            ref={player => {
+              this.player = player;
+            }}
             playsInline
             poster="https://switch-cn.gtgres.com/global-images/737058f0-642d-11ea-b2ec-abc0f6730fb6.jpg"
             crossOrigin="anonymous"
@@ -57,6 +64,10 @@ class VideoPlayer extends Component {
               <ClosedCaptionButton order={7} />
             </ControlBar>
           </Player>
+          <br />
+          <div className="button is-primary" onClick={this.handleClick}>
+            跳转字募
+          </div>
         </div>
       </div>
     );

@@ -3,18 +3,20 @@ import { useHistory } from "react-router-dom";
 import "bulma/css/bulma.css";
 import "../styles/video-list.css";
 
-function VideoList() {
+function VideoList({ vlist = [] }) {
   let history = useHistory();
-  const redirectTo = () => history.push("/video");
+  const redirectTo = o => {
+    history.push("/video", { ...o });
+  };
   return (
     <div className="video-list">
       <section className="section">
         <div className="container">
           <div className="columns is-multiline">
-            {Array.from({ length: 6 }, (v, i) => i).map(i => (
+            {vlist.map((o, i) => (
               <div
                 className="column is-3 video-item"
-                onClick={redirectTo}
+                onClick={() => redirectTo(o)}
                 key={i}
               >
                 <div className="card">
@@ -28,7 +30,7 @@ function VideoList() {
                   </div>
                   <div className="card-content">
                     <div className="contetn">
-                      <div>simple video player</div>
+                      <div>{o.title.ch}</div>
                     </div>
                   </div>
                 </div>

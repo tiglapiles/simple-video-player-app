@@ -1,0 +1,867 @@
+WEBVTT
+
+0
+00:00:06.000 --> 00:00:07.000
+是 啊，
+ Yeah,
+
+1
+00:00:07 --> 00:00:12
+这段视频显示了一系列涉及到小粒子的模拟
+ this video shows a series of simulations involving a small particle
+
+2
+00:00:12 --> 00:00:15
+将开始使用经典物理学的假设。
+ will start using the assumptions of classical physics.
+
+3
+00:00:15 --> 00:00:20
+首先，我们将描述初始设置，然后播放模拟
+ First, we'll describe the initial setup and then play the simulation
+
+4
+00:00:20 --> 00:00:23
+为了简单起见，将假定为1维空间。
+ for simplicity, will assume a 1 dimensional space.
+
+5
+00:00:23 --> 00:00:29
+所以粒子只能沿着这条线水平移动，要么向左，要么向右。
+ So the particle can only move horizontally along this line, either left or right.
+
+6
+00:00:29 --> 00:00:31
+这是我们的粒子。
+ Here's our particle.
+
+7
+00:00:31 --> 00:00:36
+它从零开始，初始速度是每秒四个单位。
+ It's starting at position zero, and has an initial velocity of four units per second.
+
+8
+00:00:37 --> 00:00:39
+现在，我们将播放模拟。
+ Now, we'll play the simulation.
+
+9
+00:00:41 --> 00:00:46
+因为我们的粒子漂浮在空旷的空间里，所以它保持恒定的速度。
+ Since our particle floats in empty space, it maintains a constant velocity.
+
+10
+00:00:46 --> 00:00:52
+注意。时间慢了两倍。我们将以这种方式播放所有模拟。
+ Note. The time is slowed down by a factor of two. We'll play all simulations this way.
+
+11
+00:00:53 --> 00:00:53
+谁？
+ Who?
+
+12
+00:00:55 --> 00:00:58
+下面是量子物理学如何描述同样的事情。
+ Here's how quantum physics describes the same thing.
+
+13
+00:00:58 --> 00:01:03
+由波函数表示的粒子。
+ The particles represented by a wave function such as this one.
+
+14
+00:01:03 --> 00:01:10
+它包含关于粒子位置和速度的信息。但我们需要一段时间来解释如何阅读所有内容。
+ It contains Information both about the particles position and its velocity. But it will take us a while to explain how to read it all.
+
+15
+00:01:10 --> 00:01:14
+首先，我们将解释如何阅读有关职位的信息。
+ First, we'll explain how to read Information about position.
+
+16
+00:01:15 --> 00:01:20
+波函数绕着主轴旋转，与主轴的距离也不同。
+ The wave function is rotating around the main axis, and its distance from it varies.
+
+17
+00:01:20 --> 00:01:23
+例如，这里的距离很高。
+ Here, for example, the distance is high.
+
+18
+00:01:24 --> 00:01:26
+在这里。它比较低
+ Here. It is lower
+
+19
+00:01:27 --> 00:01:30
+还有这里。甚至更低。尽管如此，
+ And Here. Even lower. Still,
+
+20
+00:01:31 --> 00:01:38
+粒子更可能在距离较高的位置被发现。所以更可能在这里找到，
+ the particle is more likely to be found at a position where the distance is high. So it's more likely to be found here,
+
+21
+00:01:38 --> 00:01:41
+不太可能在这里找到，
+ less likely to be found here,
+
+22
+00:01:41 --> 00:01:43
+更不用说这里了
+ and even less so here
+
+23
+00:01:44 --> 00:01:49
+以便更好地看到不同的距离。让我们画一个接触波浪的圆。
+ to better see the varying distances. Let's draw a circle that touches the wave.
+
+24
+00:01:49 --> 00:01:52
+它的半径告诉我们在一个给定点上的距离，
+ Its radius shows us the distance at a given point,
+
+25
+00:01:55 --> 00:02:00
+将其沿主轴滑动，并用生成的曲面包裹函数。
+ will slide it along the main axis and wrap the function with the resulting surface.
+
+26
+00:02:06 --> 00:02:09
+所以我们不知道粒子到底在哪里，
+ So we don't know exactly where the particle is,
+
+27
+00:02:11 --> 00:02:15
+但我们知道它位置的概率分布。
+ but we do know the probability distribution of its position.
+
+28
+00:02:15 --> 00:02:20
+根据薛定谔方程，波函数随时间演化。
+ The wave function evolves with time, according to an equation called the schrodinger equation.
+
+29
+00:02:20 --> 00:02:24
+橄榄向右滑动形成的特殊波浪形状。
+ This particular wave shape of olives by gliding to the right.
+
+30
+00:02:28 --> 00:02:33
+事实上，它以每秒四个单位的速度移动，但我们稍后会解释速度。
+ In fact, it's moving at four units per second, but we'll explain about velocity later.
+
+31
+00:02:34 --> 00:02:36
+让我们再看一遍。
+ Let's watch it again.
+
+32
+00:02:37 --> 00:02:40
+注意波浪是如何逐渐扩散的。
+ Note how the wave is gradually spreading.
+
+33
+00:02:41 --> 00:02:43
+我们以后再解释
+ We'll explain this to later on
+
+34
+00:02:44 --> 00:02:45
+谁
+ who
+
+35
+00:02:48 --> 00:02:49
+这个
+ the
+
+36
+00:02:49 --> 00:02:54
+粒子太小，无法直接观察，但我们有一个测量装置。
+ the particle is too small to be observed directly, but we have a measurement device.
+
+37
+00:02:54 --> 00:02:57
+它只能探测到这个范围内的粒子。
+ It can only detect the particle within this range.
+
+38
+00:02:58 --> 00:03:02
+当我们点击这个按钮时，一个1秒计时器被激活。
+ When we click this button, a 1 second timer is activated.
+
+39
+00:03:05 --> 00:03:11
+当定时器启动时，设备会进行测量并告诉我们是否检测到了粒子，
+ When the timer is up, the device makes a measurement and tells us if it detected the particle,
+
+40
+00:03:11 --> 00:03:15
+如果粒子在测量范围内，它会说是。
+ it will say yes, if the particle is anywhere within the measurement range.
+
+41
+00:03:19 --> 00:03:22
+现在让我们做个小实验。
+ Now let's run a little experiment.
+
+42
+00:03:22 --> 00:03:28
+粒子再次从零开始，速度为每秒四个单位。
+ The particle again, starts at position zero and has a velocity of four units per second.
+
+43
+00:03:28 --> 00:03:33
+我们的设备刚刚启动，将在一秒钟内进行测量。
+ Our device has just been activated and will make a measurement in one second.
+
+44
+00:03:33 --> 00:03:37
+很容易看出这一点。到那时，粒子将在测量范围内。
+ It's easy to see that. By that time, the particle will be inside the measurement range.
+
+45
+00:03:37 --> 00:03:40
+所以我们预测设备会说，是的，
+ So we predict the device will say, yes,
+
+46
+00:03:43 --> 00:03:50
+这是古典物理学的决定论。如果我们知道初始状态，我们就可以预测测量结果
+ this is the determinism of classical physics. If we know the initial state, we can predict the results of measurements
+
+47
+00:03:50 --> 00:03:51
+谁，
+ who,
+
+48
+00:03:51 --> 00:03:52
+是 啊。
+ yeah.
+
+49
+00:03:52 --> 00:03:55
+现在，回到量子物理学。
+ And Now, back to quantum physics.
+
+50
+00:03:57 --> 00:04:00
+我们在测量前停了下来。
+ We paused just before the measurement.
+
+51
+00:04:00 --> 00:04:02
+我们现在能预测结果吗？
+ Can we now predict the result?
+
+52
+00:04:02 --> 00:04:06
+波函数不能告诉我们粒子是否在范围内。
+ The wave function doesn't tell us if the particle is inside the range or not.
+
+53
+00:04:06 --> 00:04:10
+这就是著名的量子物理决定论，
+ This is the famous and determinism of quantum physics,
+
+54
+00:04:10 --> 00:04:12
+但我们可以计算概率。
+ but we can calculate probabilities.
+
+55
+00:04:12 --> 00:04:17
+这个切片的体积是这个形状总体积的35%。
+ The volume of this slice is 35% of the total volume of this shape.
+
+56
+00:04:18 --> 00:04:21
+剩下的在外面。
+ and the remainder is outside.
+
+57
+00:04:23 --> 00:04:27
+这是两种可能结果的概率。
+ These are the probabilities of the two possible outcomes.
+
+58
+00:04:29 --> 00:04:35
+实验以肯定的结果结束。如果我们再运行一次，我们可能会得到一个o
+ This experiment ended with a yes result. If we run it again, we may end up with an o
+
+59
+00:04:38 --> 00:04:45
+测量也会改变波。如果结果为“是”，则超出范围的部分将归零。
+ the measurement also changes the wave. If the result is yes, the part outside the range gets zeroed out.
+
+60
+00:04:45 --> 00:04:48
+否则，范围内的部分为零。怀疑。
+ Otherwise, the part inside the range is zero. Doubt.
+
+61
+00:04:48 --> 00:04:51
+这叫做波函数坍缩。
+ This is called wave function collapse.
+
+62
+00:04:51 --> 00:04:52
+谁？
+ Who?
+
+63
+00:04:55 --> 00:04:55
+是 啊
+ Yeah
+
+64
+00:04:56 --> 00:05:00
+现在将在测量前后完全运行模拟，
+ will now run the simulation in full before and after the measurement,
+
+65
+00:05:00 --> 00:05:05
+重复两次，每次可能的结果重复一次，然后解释
+ will repeat it twice, once for each possible outcome, and then explain
+
+66
+00:05:20 --> 00:05:23
+测量，使波函数崩溃。
+ the measurement, made the wave function collapse.
+
+67
+00:05:24 --> 00:05:29
+之后，根据我们的方程，函数继续平稳地演化。
+ Afterwards, the function continues to evolve smoothly according to the shorting our equation.
+
+68
+00:05:29 --> 00:05:33
+但既然现在不同了，它的进化也会不同。
+ But since it's different now, it will evolve differently as well.
+
+69
+00:05:35 --> 00:05:36
+谁
+ Who
+
+70
+00:05:39 --> 00:05:39
+休斯敦大学
+ uh
+
+71
+00:05:40 --> 00:05:42
+这里有四个波函数。
+ here are four wave functions.
+
+72
+00:05:42 --> 00:05:45
+它们都给了我们关于粒子位置的相同信息，
+ They all give us the same Information about the particles position,
+
+73
+00:05:47 --> 00:05:49
+但它们的旋转方式不同。
+ but they rotate differently.
+
+74
+00:05:51 --> 00:05:53
+这个顺时针旋转，
+ This one rotates clockwise,
+
+75
+00:05:54 --> 00:05:57
+这个顺时针旋转得更快。
+ this one rotates clockwise faster.
+
+76
+00:05:57 --> 00:05:59
+这个逆时针方向，
+ This one counterclockwise,
+
+77
+00:06:00 --> 00:06:03
+最后一个根本不旋转。
+ and the last one doesn't rotate at all.
+
+78
+00:06:05 --> 00:06:07
+让我们看看它们是如何随时间演变的。
+ Let's see how they evolve with time.
+
+79
+00:06:09 --> 00:06:13
+旋转包含了关于粒子速度的信息，
+ The rotation contain Information about the particles velocity,
+
+80
+00:06:13 --> 00:06:16
+但这并不容易理解。
+ but it's not so easy to interpret.
+
+81
+00:06:16 --> 00:06:19
+以下是我们如何使这些信息更具可读性的方法。
+ Here's how we make this Information more readable.
+
+82
+00:06:19 --> 00:06:23
+我们将使用一个叫做傅里叶变换的数学算符。
+ We'll use a mathematical operator called the fourier transform.
+
+83
+00:06:23 --> 00:06:29
+它将波函数分解成组成它的频率，创建一个新的波函数。
+ It decomposes the wave function into the frequencies that make it up, creating a new wave function.
+
+84
+00:06:32 --> 00:06:41
+这个新函数提供了关于粒子速度的信息。同样地，原始的波函数给了我们关于粒子位置的信息。
+ This new function gives us Information about the particles velocity. In the same way the original wave function gave us Information about the particles position.
+
+85
+00:06:41 --> 00:06:49
+更准确地说，它给了我们关于动量的信息。但我们将在视频的结尾解释动量。
+ To be more accurate, it gives us Information about momentum. But we'll explain about momentum only near the end of the video.
+
+86
+00:06:49 --> 00:06:52
+现在，它可以作为速度波函数工作。
+ For now, it will work fine as the velocity wave function.
+
+87
+00:06:53 --> 00:07:00
+波的峰值是4个单位，这意味着粒子最有可能的速度是每秒4个单位。
+ The peak of the wave is at four units, meaning the particles most likely velocity is four units per second.
+
+88
+00:07:01 --> 00:07:05
+但这并不是我们粒子所能拥有的唯一速度。
+ But it's not the only velocity our particle can have.
+
+89
+00:07:05 --> 00:07:08
+和以前一样。我们不知道它的确切速度，
+ As before. We don't know its exact velocity,
+
+90
+00:07:09 --> 00:07:12
+只有概率分布。
+ only the probability distribution.
+
+91
+00:07:12 --> 00:07:16
+这解释了我们之前看到的扩散现象，
+ This explains the spreading phenomenon we saw before,
+
+92
+00:07:16 --> 00:07:20
+将用经典物理学的一个例子来证明这一点。
+ will demonstrate this using an example from classical physics.
+
+93
+00:07:20 --> 00:07:23
+这是一个100个粒子的星系团。
+ Here's a cluster of 100 particles.
+
+94
+00:07:23 --> 00:07:28
+我们将它们水平随机分布。根据位置波函数。
+ We distributed them horizontally, randomly. According to the position wave function.
+
+95
+00:07:28 --> 00:07:32
+现在，我们将根据速度波函数，用随机速度给它们赋值。
+ We'll now assign them with random velocities according to the velocity wave function.
+
+96
+00:07:35 --> 00:07:40
+所以有些比每秒4个单位快一点，有些比每秒慢一点
+ So some of them are little faster than four units per second, and some are a little slower
+
+97
+00:07:45 --> 00:07:50
+因为星团的中心以每秒4个单位的速度移动，并且正在逐渐扩散。
+ for the center of the cluster moves at four units per second, and it is gradually spreading.
+
+98
+00:07:50 --> 00:07:57
+但请记住，我们的波函数只代表一个粒子，没有什么比它更像。在古典物理学中，
+ But remember that our wave function represents just one particle, and that there's nothing quite like it. In classical physics,
+
+99
+00:07:58 --> 00:08:03
+傅里叶变换的逆运算是另一种傅里叶变换。
+ the inverse operation of a fourier transform is yet another fourier transform.
+
+100
+00:08:03 --> 00:08:08
+实际上，我们可以从新的波函数重建原始波函数。
+ And we can, in fact, reconstruct the original wave function from the new one.
+
+101
+00:08:11 --> 00:08:15
+所以这两个函数都包含了关于粒子的所有信息。
+ So both functions contain all the Information about the particle.
+
+102
+00:08:15 --> 00:08:20
+我们已经看到了在位置波函数中加入卷曲是如何改变速度的。
+ We've already seen how adding curls to the position wave function changes velocity.
+
+103
+00:08:25 --> 00:08:27
+它也有相反的作用。
+ It also works the other way around.
+
+104
+00:08:27 --> 00:08:32
+向速度波函数中添加女孩会更改粒子的位置。
+ Adding girls to the velocity wave function changes the particles position.
+
+105
+00:08:37 --> 00:08:41
+我们现在将再次运行模拟，这次，显示两个波函数。
+ We'll now run our simulation again, this time, showing both wave functions.
+
+106
+00:08:41 --> 00:08:49
+当位置波函数崩溃时，速度波函数也会发生突变。根据傅里叶变换，
+ When the position wave function collapses, the velocity wave function will snap as well. According to the fourier transform,
+
+107
+00:09:04 --> 00:09:05
+谁？
+ who?
+
+108
+00:09:08 --> 00:09:08
+休斯敦大学
+ uh
+
+109
+00:09:09 --> 00:09:12
+给定一个波函数，我们可以计算
+ given a wave function, we can calculate mean
+
+110
+00:09:12 --> 00:09:15
+以及标准差。
+ and standard deviation.
+
+111
+00:09:15 --> 00:09:19
+标准差测量波与平均值的传播距离。
+ The standard deviation measures how far the wave is spread out from the mean.
+
+112
+00:09:23 --> 00:09:28
+在量子物理学中，标准差与一个叫做不确定性的概念有关。
+ In quantum physics, standard deviation is related to a concept called uncertainty.
+
+113
+00:09:28 --> 00:09:33
+为了看得更清楚，让我们并排画出标准差。
+ To see it better, let's draw for standard deviations side by side.
+
+114
+00:09:34 --> 00:09:39
+当标准差很低时，我们对粒子的位置有很好的了解。
+ When the standard deviation is low, we have pretty good knowledge where the particle is.
+
+115
+00:09:39 --> 00:09:41
+所以我们说不确定性很低。
+ So we say uncertainty is low.
+
+116
+00:09:41 --> 00:09:46
+当标准差很大时，粒子可以在很宽的范围内。
+ And When the standard deviation is high, the particle can be anywhere within a wide range.
+
+117
+00:09:46 --> 00:09:49
+所以我们说不确定性很高。
+ So we say uncertainty is high.
+
+118
+00:09:49 --> 00:09:53
+这是傅里叶变换的一个奇特性质。
+ Now, here's a curious property of the fourier transform.
+
+119
+00:09:53 --> 00:09:57
+如果一个不确定性很低，另一个一定很高，
+ If one uncertainty is low, the other one must be high,
+
+120
+00:09:57 --> 00:09:59
+反之亦然。
+ and vice versa.
+
+121
+00:09:59 --> 00:10:06
+它们不可能都很低。所以如果我们大致知道粒子的位置，对它的速度就知之甚少
+ They can't both be low. So if we know approximately where the particle is, will know little about its velocity
+
+122
+00:10:08 --> 00:10:09
+另一方面，
+ and the other way around,
+
+123
+00:10:15 --> 00:10:18
+我们可以更精确地制定这条规则。
+ we can formulate this rule more precisely.
+
+124
+00:10:19 --> 00:10:29
+这个矩形代表了我们对粒子的不确定性。数学上可以证明它的面积总是至少八个平方单位。
+ This rectangle represents the uncertainty we have about the particle. It can be proven mathematically that its area will always be at least eight square units.
+
+125
+00:10:36 --> 00:10:44
+规则规定矩形不能再小，但可以再大。运行我们的模拟，再次，位置波将开始扩散。
+ The rule says the rectangle can't be any smaller, but it can be bigger. Running our simulation, again, the position wave will start spreading.
+
+126
+00:10:51 --> 00:10:55
+这里有更多关于这种扩散现象的见解。
+ And here's some more insight into this spreading phenomenon.
+
+127
+00:10:55 --> 00:11:01
+如果最初位置的不确定性很低，那么不确定性和速度必须很高。
+ If initially the uncertainty in position is low, then uncertainty and velocity must be high.
+
+128
+00:11:01 --> 00:11:04
+所以现在位置波传播得很快，
+ So now the position wave will spread very fast,
+
+129
+00:11:09 --> 00:11:11
+反之亦然。
+ and vice versa.
+
+130
+00:11:11 --> 00:11:14
+现在，不确定性和速度都很低，
+ Now, uncertainty and velocity is low,
+
+131
+00:11:14 --> 00:11:18
+传播现象几乎不被注意到。
+ and the spreading phenomenon will hardly be noticed.
+
+132
+00:11:21 --> 00:11:26
+如前所述。速度波函数实际上是动量波函数。
+ As mentioned before. The velocity wave function is really the momentum wave function.
+
+133
+00:11:26 --> 00:11:29
+这将在本视频的最后部分解释
+ This is explained in the final part of this video
+
+134
+00:11:29 --> 00:11:30
+谁，
+ who,
+
+135
+00:11:33 --> 00:11:34
+是 啊，
+ yeah,
+
+136
+00:11:34 --> 00:11:42
+动量是质量和速度的乘积。这里有两个粒子。下一个是四倍大。
+ momentum is the product of mass and velocity. Here are two particles. The lower one is four times more massive.
+
+137
+00:11:42 --> 00:11:48
+所以，如果我们给它们相同的速度，比较低的速度，动量会大四倍。
+ So if we give them the same velocity than the lower ones, momentum will be four times greater.
+
+138
+00:11:50 --> 00:11:52
+这是另一种看待它的方法。
+ And Here's another way to look at it.
+
+139
+00:11:52 --> 00:11:55
+速度是动量除以质量。
+ Velocity is momentum divided by mass.
+
+140
+00:11:56 --> 00:12:02
+现在我们给这两个粒子相同的动量。所以质量越大的粒子速度要慢四倍。
+ Now we gave the two particles the same momentum. So the more massive particle is four times slower.
+
+141
+00:12:07 --> 00:12:08
+谁
+ Who
+
+142
+00:12:08 --> 00:12:12
+把一切都绑起来？让我们讨论一下度量单位。
+ to tie it all up? Let's discuss units of measurement.
+
+143
+00:12:12 --> 00:12:17
+到目前为止，模拟没有假设任何特定的单位。所以我们可以随心所欲
+ The simulation so far didn't assume any particular units. So we can choose anything we want
+
+144
+00:12:17 --> 00:12:24
+对于位置波函数。让我们选择厘米。所以它将接近屏幕上实际显示的大小。
+ for the position wave function. Let's choose centimeters. So it will be close to the size actually shown on your screen.
+
+145
+00:12:24 --> 00:12:29
+应用傅里叶变换，我们得到了动量波函数
+ Applying the fourier transform, we get the momentum wave function
+
+146
+00:12:29 --> 00:12:36
+以合理的比例展示。我们把动量除以一个叫做约化普朗克常数（h bar）的因子。
+ to put the display on a reasonable scale. We divided the momentum by a factor called the reduced planck constant, or h bar.
+
+147
+00:12:36 --> 00:12:39
+这就是它的价值。使用我们选择的单位
+ Here is its value. Using our units of choice
+
+148
+00:12:40 --> 00:12:45
+对于粒子的质量，我们选择了与h bar相同的值，单位为千克。
+ for the mass of the particle, we chose the same value as h bar in kilograms.
+
+149
+00:12:45 --> 00:12:48
+这接近于一个电子的质量。
+ This is close to the mass of an electron.
+
+150
+00:12:48 --> 00:12:51
+所以弥撒和酒吧互相取消了。
+ So the mass and h bar cancelled each other out.
+
+151
+00:12:51 --> 00:12:55
+最后我们得到了平缓的速度和厘米每秒。
+ And We ended up with plain velocity and centimeters per second.
+
+152
+00:12:56 --> 00:12:59
+现在让我们增加粒子的质量。
+ Now let's increase the particles mass.
+
+153
+00:13:01 --> 00:13:02
+这个
+ the
+
+154
+00:13:03 --> 00:13:06
+两个波函数保持不变。
+ the two wave functions remain the same.
+
+155
+00:13:06 --> 00:13:08
+不确定度原理是一样的，
+ The uncertainty principle is the same,
+
+156
+00:13:10 --> 00:13:15
+但同样的动量值现在转化为更低的速度。
+ but the same values of momentum now translate to much lower velocities.
+
+157
+00:13:15 --> 00:13:19
+让我们缩小图像的上部，使速度回到比例。
+ Let's shrink the upper part of the image to bring velocity back to scale.
+
+158
+00:13:21 --> 00:13:25
+现在，让我们减少位置的不确定性
+ Now, let's reduce the uncertainty in position
+
+159
+00:13:26 --> 00:13:30
+把速度提高到每秒4厘米。
+ and increase the velocity back to four centimeters per second.
+
+160
+00:13:32 --> 00:13:37
+会重复同样的步骤，再次增加质量。
+ Will repeat the same steps, again, increase the mass.
+
+161
+00:13:38 --> 00:13:38
+是 啊，
+ Yeah,
+
+162
+00:13:38 --> 00:13:39
+当然。
+ sure.
+
+163
+00:13:39 --> 00:13:41
+缩小图像，
+ Shrink the image,
+
+164
+00:13:43 --> 00:13:45
+减少位置的不确定性，
+ reduce uncertainty in position,
+
+165
+00:13:48 --> 00:13:50
+增加速度。
+ and increase velocity.
+
+166
+00:13:52 --> 00:13:55
+我们现在准备好进行最后的模拟了。
+ We are now ready for our final simulation.
+
+167
+00:13:57 --> 00:14:04
+可以很准确地说，粒子从零开始，初始速度为每秒4厘米。
+ It's quite accurate to say the particle starts at position zero and has an initial velocity of four centimeters per second.
+
+168
+00:14:04 --> 00:14:09
+由于速度的不确定性很低，传播速度会很慢。
+ Spreading will be slow because of the low uncertainty in velocity.
+
+169
+00:14:09 --> 00:14:14
+所以一秒钟后，位置波几乎完全在测量范围内。
+ So one second from now, the position wave will be almost entirely within the measurement range.
+
+170
+00:14:14 --> 00:14:18
+我们几乎可以肯定地预测，这个装置会说是的。
+ And we can predict with near certainty, the device will say yes.
+
+171
+00:14:18 --> 00:14:22
+出于同样的原因。崩塌几乎不会引起注意。
+ For the same reason. The collapse will hardly be noticed.
+
+172
+00:14:28 --> 00:14:29
+谁。
+ Who.
+

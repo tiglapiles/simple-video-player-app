@@ -9,24 +9,51 @@ import {
   BigPlayButton
 } from "video-react";
 import "video-react/dist/video-react.css";
+import axios from "axios";
 import "../styles/video-player.css";
 const PATH = "http://seeker.haetek.com:6869/";
 
 class VideoPlayer extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      searchString: ""
+    };
   }
-  componentDidMount() {
-    // console.log(sub);
-  }
-  handleClick = () => {
-    console.log(this.player.seek(80));
+  componentDidMount() {}
+  handleClick = id => {
+    this.queryVideo({ str: this.state.searchString, id });
   };
-
+  handleInput = e => {
+    this.setState({ searchString: e });
+  };
+  queryVideo = ({ str = "", id = "" }) => {
+    axios({
+      url: "http://seeker.haetek.com:6869/videos",
+      method: "post",
+      data: {
+        model_action: "search",
+        query_string: `${str}`,
+        video_ids: [id],
+        type: "local"
+      }
+    })
+      .then(response => {
+        let {
+          data: { result_data }
+        } = response;
+        let timeStamp = result_data[0]["match_frame"]["start_time"];
+        this.setState({ timeStamp: timeStamp }, () => {
+          this.player.seek(this.state.timeStamp - 2);
+        });
+      })
+      .catch(error => {
+        console.log(error);
+      });
+  };
   render() {
     const {
-      item: { title, video_path, webvtt }
+      item: { title, video_path, webvtt, video_id }
     } = this.props;
     return (
       <div>
@@ -65,8 +92,25 @@ class VideoPlayer extends Component {
             </ControlBar>
           </Player>
           <br />
-          <div className="button is-primary" onClick={this.handleClick}>
-            跳转字募
+          <div>
+            <div className="field is-grouped">
+              <p className="control is-expanded">
+                <input
+                  className="input"
+                  type="text"
+                  placeholder="Find a repository"
+                  onChange={this.handleInput}
+                />
+              </p>
+              <p className="control">
+                <a
+                  className="button is-info"
+                  onClick={() => this.handleClick(video_id)}
+                >
+                  跳转字募
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

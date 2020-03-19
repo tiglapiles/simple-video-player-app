@@ -17,13 +17,13 @@ class App extends Component {
   componentDidMount() {
     this.queryVideo();
   }
-  queryVideo = () => {
+  queryVideo = (str = "") => {
     axios({
       url: "http://seeker.haetek.com:6869/videos",
       method: "post",
       data: {
         model_action: "search",
-        query_string: "",
+        query_string: `${str}`,
         video_ids: [],
         type: "global"
       }
@@ -36,11 +36,11 @@ class App extends Component {
       });
   };
   handleInput = e => {
-    this.setState({ inputValue: e });
+    this.setState({ inputValue: e.target.value });
   };
   handleSearch = e => {
     e.preventDefault();
-    this.queryVideo();
+    this.queryVideo(this.state.inputValue);
   };
   render() {
     const { videoList } = this.state;

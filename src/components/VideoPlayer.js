@@ -22,10 +22,11 @@ class VideoPlayer extends Component {
   }
   componentDidMount() {}
   handleClick = id => {
-    this.queryVideo({ str: this.state.searchString, id });
+    const { searchString } = this.state;
+    this.queryVideo({ str: searchString, id });
   };
   handleInput = e => {
-    this.setState({ searchString: e });
+    this.setState({ searchString: e.target.value });
   };
   queryVideo = ({ str = "", id = "" }) => {
     axios({
@@ -33,7 +34,7 @@ class VideoPlayer extends Component {
       method: "post",
       data: {
         model_action: "search",
-        query_string: `${str}`,
+        query_string: str,
         video_ids: [id],
         type: "local"
       }
@@ -42,7 +43,7 @@ class VideoPlayer extends Component {
         let {
           data: { result_data }
         } = response;
-        let timeStamp = result_data[0]["match_frame"]["start_time"];
+        let timeStamp = result_data[0]["match_frame"]["start_time"] || 0;
         this.setState({ timeStamp: timeStamp }, () => {
           this.player.seek(this.state.timeStamp - 2);
         });
@@ -99,7 +100,7 @@ class VideoPlayer extends Component {
                   className="input"
                   type="text"
                   placeholder="Find a repository"
-                  onChange={this.handleInput}
+                  onChange={e => this.handleInput(e)}
                 />
               </p>
               <p className="control">
